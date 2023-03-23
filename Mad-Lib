@@ -1,0 +1,14 @@
+#Mad-Lib
+
+print("Welcome to Mad-Lib. Please answer the following questions:")
+print("")
+
+Place1 = input("Enter a place:")
+Noun1 = input("Enter an object:")
+Noun2 = input("Enter a mode of transport:")
+Food1 = input("Enter a food:")
+
+
+print("When you go to the",Place1,",you should always bring",Noun1,".")
+print("Usually, I take the",Noun2,"to get there.")
+print("I like to eat",Food1,"When I go to the",Place1)
