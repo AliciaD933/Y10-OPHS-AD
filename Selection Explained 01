@@ -4,3 +4,14 @@ if SkyColour == ("blue"):
   print("The sky is blue today.")
   
 print("Goodbye!")
+
+SkyColour = str(input("What colour is the sky today?"))
+
+if SkyColour == ("blue"):
+  print("The sky is blue today.")
+elif SkyColour == ("grey"):
+  print("It might rain today...")
+else:
+  print("Okay.")
+  
+print("Goodbye!")
