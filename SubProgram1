@@ -1,0 +1,12 @@
+def Birthday():
+  BDay = str(input("Is it your birthday?"))
+  if BDay == "yes" or BDay == "YES" or BDay == "Yes":
+    print("Happy Birthday!")
+  else:
+    print("Oh.")
+
+Birthday()
+Birthday()
+Birthday()
+Birthday()
+Birthday()
