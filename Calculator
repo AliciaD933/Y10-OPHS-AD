@@ -1,0 +1,36 @@
+def addition():
+  Num1 = int(input("Enter a number:"))
+  Num2 = int(input("Enter another number:"))
+  Ans = Num1 + Num2
+  print(Ans)
+
+def subtraction():
+  Num1 = int(input("Enter a number:"))
+  Num2 = int(input("Enter another number:"))
+  Ans = Num1 - Num2
+  print(Ans)
+
+def multiplication():
+  Num1 = int(input("Enter a number:"))
+  Num2 = int(input("Enter another number:"))
+  Ans = Num1 * Num2
+  print(Ans)
+
+def division():
+  Num1 = int(input("Enter a number:"))
+  Num2 = int(input("Enter another number:"))
+  Ans = Num1 / Num2
+  print(Ans)
+  
+Calc = int(input("Enter 1 for addition, 2 for subtraction, 3 for multiplication or 4 for division:")).lower()
+
+if Calc == "1":
+  addition()
+elif Calc == "2":
+  subtraction()
+elif Calc == "3":
+  multiplication()
+elif Calc == "4":
+  division()
+else:
+  print("Sorry, I do not understand.")
