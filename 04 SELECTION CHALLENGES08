@@ -1,0 +1,10 @@
+Num = int(input("Enter a number, 1 2 or 3:"))
+
+if Num == 1:
+  print("Thank you.")
+elif Num == 2:
+  print("Well done, you're so smart.")
+elif Num == 3:
+  print("Amazing, you're so good at this.")
+else:
+  print("Really? What is wrong with you?")
