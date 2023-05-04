@@ -1,5 +1,3 @@
-answerOK = False
-while answerOK == False:
-  answer = input("Exit? Y or N.").upper()
-  if answer == "Y":
-    answerOK = True
+username = ""
+while not username:
+  username = input("Please enter username:")
