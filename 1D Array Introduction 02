@@ -1,0 +1,7 @@
+Car1 = str(input("Enter the name of a car:"))
+Car2 = str(input("Enter the name of a car:"))
+Car3 = str(input("Enter the name of a car:"))
+
+Cars = [Car1,Car2,Car3]
+
+print(Cars)
