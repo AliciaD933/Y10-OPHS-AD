@@ -1,0 +1,12 @@
+num = 10
+while num > 0:
+  print("There are",num," green bottles hanging on the wall,",num,"green bottles hanging on the wall, and if one green bottle should accidentally fall...")
+  ans = int(input("How many green bottles will be hanging on the wall?"))
+  while ans != num-1:
+    print("Incorrect, try again.")
+    ans = int(input("How many green bottles will be hanging on the wall?"))
+  else: 
+    num = num-1
+    print("There will be",num,"green bottles hanging on the wall.")
+else:
+  print("There will be no green bottles hanging on the wall.")
