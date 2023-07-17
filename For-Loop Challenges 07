@@ -1,0 +1,8 @@
+total = 0
+
+for x in range(5):
+  num = int(input("Enter a number:"))
+  ans = str(input("Would you like this number included?"))
+  if ans == "y":
+    total = num + total
+print(total)
