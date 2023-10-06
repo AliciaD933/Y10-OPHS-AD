@@ -1,0 +1,20 @@
+# Dice face 5 program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def output5():
+    print("oooooooooo")
+    print("o        o")
+    print("o #    # o")
+    print("o        o")
+    print("o   #    o")
+    print("o        o")
+    print("o #    # o")
+    print("o        o")
+    print("oooooooooo")
+
+# -------------------------
+# Main program
+# -------------------------
+output5()
