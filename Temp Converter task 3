@@ -1,0 +1,48 @@
+# Temperature conversion program task 2
+# -------------------------
+# Subprograms
+# -------------------------
+def Cel2Fahr(Cvalue):
+    #calculate and return answer
+  result = float(int(Temp * 9 / 5 + 32))
+  return(result)
+
+def Fahr2Cel(Fvalue):
+    #calculate and return answer:
+      result = float(int((Temp - 32)*5 / 9))
+      return(result)
+      
+def Cel2Kel(Kvalue):
+  result = float(int(Temp + 273.15))
+  return(result)
+  
+def Fahr2Kel(Kvalue):
+  result = float(int((Temp - 32)*5 / 9 + 273.15))
+  return(result)
+# -------------------------
+# Main program
+# -------------------------
+Temp = float(input("Input the temperature you'd like to convert:"))
+Type = input("Input the type of temperature you'll be converting from: F/C")
+Type2 = input("Input the type of temperature you'll be converting to: K/F/C")
+
+if Type == "C" and Type2 == "F":
+  result = Cel2Fahr(Temp)
+  o_convention = "Fahrenheit"
+elif Type == "F" and Type2 == "C":
+  result = Fahr2Cel(Temp)
+  o_convention = "Celcius"
+elif Type == "F" and Type2 == "K":
+  result = Fahr2Kel(Temp)
+elif Type == "C" and Type2 == "K":
+  result = Cel2Kel(Temp)
+else:
+  print("Input proper convention.")
+  quit()
+
+if Type2 == "F":
+  print("The temperature is",result,"degrees celcius.")
+elif Type2 == "C":
+  print("The temperature is",result,"degrees fahrenheit")
+elif Type2 == "K":
+  print("The temperature is",result,"degrees kelvin")
