@@ -1,0 +1,26 @@
+# PIN program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def SecurityCheck():
+  if EnteredPIN == 7528:
+    return True
+  else:
+    return False
+
+def FalseSecurityCheck():
+  for 3   
+
+
+# -------------------------
+# Main program
+# -------------------------
+EnteredPIN = input("Enter the PIN:")
+
+SecurityCheck
+
+if SecurityCheck == True:
+  print("Hurrayyy")
+else:
+  print("Try again")
