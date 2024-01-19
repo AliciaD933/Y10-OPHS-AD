@@ -1,0 +1,3 @@
+file = open("players.txt", "r")
+playerstext = file.read()
+print(playerstext)
