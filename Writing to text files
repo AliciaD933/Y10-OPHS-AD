@@ -1,0 +1,3 @@
+file = open("players.txt", "w")
+file.write("DinoShark\nMouseDragon\n")
+file.close()
